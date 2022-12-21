@@ -1,0 +1,68 @@
+
+
+paru ul {
+  position:fixed;
+  top:94%;
+  left:88%;
+  transform: translate(-50%, -50%);
+  margin:0;
+  padding:0;
+  display:flex;opacity:0.1;
+}
+
+paru ul li {
+  list-style: none;
+}
+
+paru ul li a {
+  position: relative;
+  
+  height:30px;
+  display:block;
+  text-align:center;
+  margin:0 4px;
+  border-radius: 50%;
+  padding: 1px;
+  box-sizing: border-box;
+  text-decoration:none;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+  background: linear-gradient(0deg, #ddd, #fff);
+  transition: .5s;font-size:10px;
+}
+
+paru ul li a:hover {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  text-decoration:none;
+}
+
+paru ul li a .fab {
+  widht: 100%;
+  height:100%;
+  display:block;
+  background: linear-gradient(0deg, #fff, #ddd);
+  border-radius: 50%;
+  padding:7px;
+  font-size:15px;
+  color: #262626;
+  transition: .5s;
+}
+
+paru ul li:nth-child(1) a:hover .fab {
+  color: #3b5998;
+}
+
+paru ul li:nth-child(2) a:hover .fab {
+  color: #00aced;
+}
+
+paru ul li:nth-child(3) a:hover .fab {
+  color: #dd4b39;
+}
+
+paru ul li:nth-child(4) a:hover .fab {
+  color: #007bb6;
+}
+
+paru ul li:nth-child(5) a:hover .fab {
+  color: #e4405f;
+}
